@@ -1,4 +1,3 @@
-# clinvar
 # Clinvar Extraction
 
 A simple python script to extract necessary elements from Clinvar / NCDB
