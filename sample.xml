@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ReleaseSet Dated="2020-02-03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Type="full" xsi:noNamespaceSchemaLocation="http://ftp.ncbi.nlm.nih.gov/pub/clinvar/xsd_public/clinvar_public_1.60.xsd">
+<ClinVarSet ID="38755811">
+  <RecordStatus>current</RecordStatus>
+  <Title>LIPA, 934G-A AND Lysosomal acid lipase deficiency</Title>
+  <ReferenceClinVarAssertion DateCreated="2012-08-13" DateLastUpdated="2019-03-30" ID="57601">
+    <ClinVarAccession Acc="RCV000000098" Version="3" Type="RCV" DateUpdated="2019-03-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="1996-04-01">
+      <ReviewStatus>no assertion criteria provided</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="37870920">
+        <Attribute Type="Description">In a 12-year-old patient with cholesteryl ester storage disease (278000) from a nonconsanguineous Polish-German family, Klima et al. (1993) detected a 72-bp in-frame deletion resulting in the loss of amino acid codons 254 through 277. Analysis of genomic DNA revealed that the 72 bp represented an exon, indicating that the deletion in the mRNA was caused by defective splicing. Sequence analysis of the patient's genomic DNA revealed a G-to-A substitution in the last nucleotide of the 72-bp exon on 1 allele. No normal-sized mRNA was detectable in the propositus even though he was not homozygous for the splice site mutation. Klima et al. (1993) concluded that the patient was compound heterozygous for the splice site mutation and a null allele. The patient showed LIPA activity in cultured skin fibroblasts approximately 9% of normal. Hepatosplenomegaly had been present since age 5 years.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">8254026</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="37870920">
+        <Attribute Type="Description">Aslanidis et al. (1996) restudied the patient of Klima et al. (1993) and defined the splice site mutation as a G-to-A mutation at position -1 of the splice donor site following exon 8, resulting in incorrect splicing and the removal of the 72-bp exon 8 of the LIPA gene. They determined that the other allele of the patient carried a premature termination mutation (613497.0003) as well as the L179P mutation (613497.0001); the LIPA mRNA was rendered unstable by the premature stop codon. Aslanidis et al. (1996) demonstrated that the splice site mutation allowed the production of approximately 3 to 4% of correctly spliced mRNA relative to wildtype. Aslanidis et al. (1996) also identified a mutation at the same splice donor site, and also resulting in deletion of exon 8, in 2 sibs with Wolman disease; that mutation, at the +1 position, allowed no correct splicing, and patient fibroblasts were devoid of enzymatic activity. See 613497.0005.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">8254026</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">8617513</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="37870920">
+        <Attribute Type="Description">In 2 sibs with CESD, Maslen and Illingworth (1993) and Maslen et al. (1995) identified compound heterozygosity for this splice site mutation in the LIPA gene, inherited from their father, and the L179P mutation (613497.0001). The affected children were a sister and brother who presented with idiopathic hepatomegaly at ages 6 and 8 years, respectively. Subsequent analyses indicated that they also had hypercholesterolemia and a severe reduction in cholesteryl ester hydrolase activity in cultured fibroblasts.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">8598644</ID>
+        </Citation>
+        <Citation Type="general">
+          <CitationText>Maslen, C. L., Illingworth, D. R. Molecular genetics of cholesterol ester hydrolase deficiency. (Abstract) Am. J. Hum. Genet. 53 (suppl.): A926, 1993.</CitationText>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="37870920">
+        <Attribute Type="Description">Muntoni et al. (1995) observed homozygosity for the splice site mutation (Klima et al., 1993) in a Spanish kindred with cholesterol ester storage disease. Exon 8 of the LIPA gene was deleted.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">7759067</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">8254026</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="79" Acc="VCV000000079" Version="1">
+      <Measure Type="single nucleotide variant" ID="15118">
+        <Name>
+          <ElementValue Type="Preferred">LIPA, 934G-A</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="nucleotide change">934G-A</Attribute>
+          <XRef Type="Allelic variant" ID="613497.0002" DB="OMIM"/>
+        </AttributeSet>
+        <CytogeneticLocation>10q23.31</CytogeneticLocation>
+        <MeasureRelationship Type="asserted, but not computed">
+          <Name>
+            <ElementValue Type="Preferred">lipase A, lysosomal acid type</ElementValue>
+          </Name>
+          <Symbol>
+            <ElementValue Type="Preferred">LIPA</ElementValue>
+          </Symbol>
+          <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="10" Accession="NC_000010.11" start="89213569" stop="89252039" display_start="89213569" display_stop="89252039" Strand="-"/>
+          <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="10" Accession="NC_000010.10" start="90973325" stop="91011659" display_start="90973325" display_stop="91011659" variantLength="38335" Strand="-"/>
+          <XRef ID="3988" DB="Gene"/>
+          <XRef Type="MIM" ID="613497" DB="OMIM"/>
+          <XRef ID="HGNC:6617" DB="HGNC"/>
+        </MeasureRelationship>
+        <XRef Type="Allelic variant" ID="613497.0002" DB="OMIM"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="Preferred">LIPA, 934G-A</ElementValue>
+      </Name>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="41">
+      <Trait ID="2626" Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">Lysosomal acid lipase deficiency</ElementValue>
+          <XRef ID="Wolman+disease/7523" DB="Genetic Alliance"/>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate">LAL DEFICIENCY</ElementValue>
+          <XRef Type="MIM" ID="278000" DB="OMIM"/>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate">CHOLESTEROL ESTER HYDROLASE DEFICIENCY</ElementValue>
+          <XRef Type="MIM" ID="278000" DB="OMIM"/>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="public definition">The phenotypic spectrum of lysosomal acid lipase (LAL) deficiency ranges from the infantile-onset form (Wolman disease) to later-onset forms collectively known as cholesterol ester storage disease (CESD). Wolman disease is characterized by infantile-onset malabsorption that results in malnutrition, storage of cholesterol esters and triglycerides in hepatic macrophages that results in hepatomegaly and liver disease, and adrenal gland calcification that results in adrenal cortical insufficiency. Unless successfully treated with hematopoietic stem cell transplantation (HSCT), infants with classic Wolman disease do not survive beyond age one year. CESD may present in childhood in a manner similar to Wolman disease or later in life with such findings as serum lipid abnormalities, hepatosplenomegaly, and/or elevated liver enzymes long before a diagnosis is made. The morbidity of late-onset CESD results from atherosclerosis (coronary artery disease, stroke), liver disease (e.g., altered liver function ± jaundice, steatosis, fibrosis, cirrhosis and related complications of esophageal varices, and/or liver failure), complications of secondary hypersplenism (i.e., anemia and/or thrombocytopenia), and/or malabsorption. Individuals with CESD may have a normal life span depending on the severity of disease manifestations.</Attribute>
+          <XRef ID="NBK305870" DB="GeneReviews"/>
+        </AttributeSet>
+        <Citation Type="Suggested Reading" Abbrev="Shirley, 2015">
+          <ID Source="PubMed">26452566</ID>
+        </Citation>
+        <Citation Type="review" Abbrev="GeneReviews">
+          <ID Source="PubMed">26225414</ID>
+          <ID Source="BookShelf">NBK305870</ID>
+        </Citation>
+        <XRef ID="C0043208" DB="MedGen"/>
+        <XRef Type="MIM" ID="278000" DB="OMIM"/>
+      </Trait>
+    </TraitSet>
+  </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="20241">
+    <ClinVarSubmissionID localKey="613497.0002_CHOLESTERYL ESTER STORAGE DISEASE" submitter="OMIM" submitterDate="2017-12-22" title="LIPA, 934G-A_CHOLESTERYL ESTER STORAGE DISEASE"/>
+    <ClinVarAccession Acc="SCV000020241" Version="2" Type="SCV" OrgID="3" OrganizationCategory="resource" OrgType="primary" DateUpdated="2019-03-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="1996-04-01">
+      <ReviewStatus>no assertion criteria provided</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ExternalID DB="OMIM" ID="613497.0002" Type="Allelic variant"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">In a 12-year-old patient with cholesteryl ester storage disease (278000) from a nonconsanguineous Polish-German family, Klima et al. (1993) detected a 72-bp in-frame deletion resulting in the loss of amino acid codons 254 through 277. Analysis of genomic DNA revealed that the 72 bp represented an exon, indicating that the deletion in the mRNA was caused by defective splicing. Sequence analysis of the patient's genomic DNA revealed a G-to-A substitution in the last nucleotide of the 72-bp exon on 1 allele. No normal-sized mRNA was detectable in the propositus even though he was not homozygous for the splice site mutation. Klima et al. (1993) concluded that the patient was compound heterozygous for the splice site mutation and a null allele. The patient showed LIPA activity in cultured skin fibroblasts approximately 9% of normal. Hepatosplenomegaly had been present since age 5 years.</Attribute>
+        <Citation>
+          <ID Source="PubMed">8254026</ID>
+        </Citation>
+        <XRef DB="OMIM" ID="278000" Type="MIM"/>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">Aslanidis et al. (1996) restudied the patient of Klima et al. (1993) and defined the splice site mutation as a G-to-A mutation at position -1 of the splice donor site following exon 8, resulting in incorrect splicing and the removal of the 72-bp exon 8 of the LIPA gene. They determined that the other allele of the patient carried a premature termination mutation (613497.0003) as well as the L179P mutation (613497.0001); the LIPA mRNA was rendered unstable by the premature stop codon. Aslanidis et al. (1996) demonstrated that the splice site mutation allowed the production of approximately 3 to 4% of correctly spliced mRNA relative to wildtype. Aslanidis et al. (1996) also identified a mutation at the same splice donor site, and also resulting in deletion of exon 8, in 2 sibs with Wolman disease; that mutation, at the +1 position, allowed no correct splicing, and patient fibroblasts were devoid of enzymatic activity. See 613497.0005.</Attribute>
+        <Citation>
+          <ID Source="PubMed">8617513</ID>
+        </Citation>
+        <Citation>
+          <ID Source="PubMed">8254026</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">In 2 sibs with CESD, Maslen and Illingworth (1993) and Maslen et al. (1995) identified compound heterozygosity for this splice site mutation in the LIPA gene, inherited from their father, and the L179P mutation (613497.0001). The affected children were a sister and brother who presented with idiopathic hepatomegaly at ages 6 and 8 years, respectively. Subsequent analyses indicated that they also had hypercholesterolemia and a severe reduction in cholesteryl ester hydrolase activity in cultured fibroblasts.</Attribute>
+        <Citation>
+          <CitationText>Maslen, C. L., Illingworth, D. R. Molecular genetics of cholesterol ester hydrolase deficiency. (Abstract) Am. J. Hum. Genet. 53 (suppl.): A926, 1993.</CitationText>
+        </Citation>
+        <Citation>
+          <ID Source="PubMed">8598644</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">Muntoni et al. (1995) observed homozygosity for the splice site mutation (Klima et al., 1993) in a Spanish kindred with cholesterol ester storage disease. Exon 8 of the LIPA gene was deleted.</Attribute>
+        <Citation>
+          <ID Source="PubMed">7759067</ID>
+        </Citation>
+        <Citation>
+          <ID Source="PubMed">8254026</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <Name>
+          <ElementValue Type="Preferred">LIPA, 934G-A</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="NonHGVS">934G-A</Attribute>
+        </AttributeSet>
+        <MeasureRelationship Type="variant in gene">
+          <Symbol>
+            <ElementValue Type="Preferred">LIPA</ElementValue>
+          </Symbol>
+        </MeasureRelationship>
+        <XRef DB="OMIM" ID="613497.0002" Type="Allelic variant"/>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">CHOLESTERYL ESTER STORAGE DISEASE</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ClinVarAssertion>
+</ClinVarSet>
+  <ClinVarSet ID="38757220">
+  <RecordStatus>current</RecordStatus>
+  <Title>HMBS, 2-BP DEL, 218AG AND Acute intermittent porphyria</Title>
+  <ReferenceClinVarAssertion DateCreated="2012-08-13" DateLastUpdated="2019-03-30" ID="59031">
+    <ClinVarAccession Acc="RCV000001528" Version="2" Type="RCV" DateUpdated="2019-03-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="1994-01-01">
+      <ReviewStatus>no assertion criteria provided</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="37872960">
+        <Attribute Type="Description">In a patient with CRM-negative AIP (176000), Gu et al. (1994) identified a 2-bp deletion (218delAG) in exon 6 of the HMBS gene. This frameshift mutation leads to a premature termination 9 codons downstream and a truncated protein.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">8270254</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="1463" Acc="VCV000001463" Version="1">
+      <Measure Type="Deletion" ID="16502">
+        <Name>
+          <ElementValue Type="Preferred">HMBS, 2-BP DEL, 218AG</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="nucleotide change">2-BP DEL, 218AG</Attribute>
+          <XRef Type="Allelic variant" ID="609806.0022" DB="OMIM"/>
+        </AttributeSet>
+        <CytogeneticLocation>11q23.3</CytogeneticLocation>
+        <MeasureRelationship Type="asserted, but not computed">
+          <Name>
+            <ElementValue Type="Preferred">hydroxymethylbilane synthase</ElementValue>
+          </Name>
+          <Symbol>
+            <ElementValue Type="Preferred">HMBS</ElementValue>
+          </Symbol>
+          <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="119084864" stop="119093549" display_start="119084864" display_stop="119093549" Strand="+"/>
+          <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NW_009646203.1" start="106476" stop="106757" display_start="106476" display_stop="106757" Strand="+"/>
+          <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="118955586" stop="118964258" display_start="118955586" display_stop="118964258" variantLength="8673" Strand="+"/>
+          <XRef ID="3145" DB="Gene"/>
+          <XRef Type="MIM" ID="609806" DB="OMIM"/>
+          <XRef ID="HGNC:4982" DB="HGNC"/>
+        </MeasureRelationship>
+        <XRef Type="Allelic variant" ID="609806.0022" DB="OMIM"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="Preferred">HMBS, 2-BP DEL, 218AG</ElementValue>
+      </Name>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="387">
+      <Trait ID="4011" Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">Acute intermittent porphyria</ElementValue>
+          <XRef ID="Acute+Intermittent+Porphyria/187" DB="Genetic Alliance"/>
+          <XRef ID="5732" DB="Office of Rare Diseases"/>
+          <XRef ID="234422006" DB="SNOMED CT"/>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate">Hydroxymethylbilane Synthase Deficiency</ElementValue>
+        </Name>
+        <Symbol>
+          <ElementValue Type="Preferred">AIP</ElementValue>
+          <XRef Type="MIM" ID="176000" DB="OMIM"/>
+          <XRef ID="5732" DB="Office of Rare Diseases"/>
+        </Symbol>
+        <AttributeSet>
+          <Attribute Type="public definition">Acute intermittent porphyria (referred to as AIP in this GeneReview) results from half-normal activity of the enzyme hydroxymethylbilane synthase (HMBS). It is characterized clinically by life-threatening acute neurovisceral attacks of severe abdominal pain without peritoneal signs, often accompanied by nausea, vomiting, tachycardia, and hypertension. Attacks may be complicated by neurologic findings (mental changes, convulsions, and peripheral neuropathy that may progress to respiratory paralysis), and hyponatremia. Acute attacks, which may be provoked by certain drugs, alcoholic beverages, endocrine factors, calorie restriction, stress, and infections, usually resolve within two weeks. Most individuals with AIP have one or a few attacks; about 5% (mainly women) have recurrent attacks (defined as &gt;4 attacks/year) that may persist for years. Other long-term complications are chronic renal failure, hepatocellular carcinoma (HCC), and hypertension. Attacks, which are very rare before puberty, are more common in women than men. All individuals with a genetic change in the gene HMBS that predisposes to AIP are at risk of developing acute attacks; however, most never have symptoms and are said to have latent (or presymptomatic) AIP.</Attribute>
+          <XRef ID="NBK1193" DB="GeneReviews"/>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="keyword">Neoplasm</Attribute>
+        </AttributeSet>
+        <Citation Type="review" Abbrev="GeneReviews">
+          <ID Source="PubMed">20301372</ID>
+          <ID Source="BookShelf">NBK1193</ID>
+        </Citation>
+        <Citation Type="practice guideline" Abbrev="Orphanet, 2007">
+          <URL>https://www.orpha.net/data/patho/Pro/en/Emergency_AcuteHepaticPorphyria.pdf</URL>
+          <CitationText>Orphanet, Acute hepatic porphyria neuro-visceral crisis, 2007</CitationText>
+        </Citation>
+        <XRef ID="C0162565" DB="MedGen"/>
+        <XRef ID="79276" DB="Orphanet"/>
+        <XRef Type="MIM" ID="176000" DB="OMIM"/>
+      </Trait>
+    </TraitSet>
+  </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="21683">
+    <ClinVarSubmissionID localKey="609806.0022_PORPHYRIA, ACUTE INTERMITTENT" submitter="OMIM" submitterDate="2011-03-11" title="HMBS, 2-BP DEL, 218AG_PORPHYRIA, ACUTE INTERMITTENT"/>
+    <ClinVarAccession Acc="SCV000021683" Version="1" Type="SCV" OrgID="3" OrganizationCategory="resource" OrgType="primary" DateUpdated="2019-03-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="1994-01-01">
+      <ReviewStatus>no assertion criteria provided</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ExternalID DB="OMIM" ID="609806.0022" Type="Allelic variant"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">In a patient with CRM-negative AIP (176000), Gu et al. (1994) identified a 2-bp deletion (218delAG) in exon 6 of the HMBS gene. This frameshift mutation leads to a premature termination 9 codons downstream and a truncated protein.</Attribute>
+        <Citation>
+          <ID Source="PubMed">8270254</ID>
+        </Citation>
+        <XRef DB="OMIM" ID="176000" Type="MIM"/>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <Name>
+          <ElementValue Type="Preferred">HMBS, 2-BP DEL, 218AG</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="NonHGVS">2-BP DEL, 218AG</Attribute>
+        </AttributeSet>
+        <MeasureRelationship Type="variant in gene">
+          <Symbol>
+            <ElementValue Type="Preferred">HMBS</ElementValue>
+          </Symbol>
+        </MeasureRelationship>
+        <XRef DB="OMIM" ID="609806.0022" Type="Allelic variant"/>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">PORPHYRIA, ACUTE INTERMITTENT</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ClinVarAssertion>
+</ClinVarSet>
+
+<ClinVarSet ID="38757233">
+  <RecordStatus>current</RecordStatus>
+  <Title>HMBS, IVS14DS, G-A, +1 AND Acute intermittent porphyria</Title>
+  <ReferenceClinVarAssertion DateCreated="2012-08-13" DateLastUpdated="2019-03-30" ID="59044">
+    <ClinVarAccession Acc="RCV000001541" Version="2" Type="RCV" DateUpdated="2019-03-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="1993-03-01">
+      <ReviewStatus>no assertion criteria provided</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="37872963">
+        <Attribute Type="Description">In a patient with CRM-negative AIP (176000), Gu et al. (1993) identified a 912G-A transition in the first nucleotide of the donor splice site of intron 14 of the HMBS gene, resulting in abnormal splicing and the skipping of exon 14.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">8096492</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="1476" Acc="VCV000001476" Version="1">
+      <Measure Type="single nucleotide variant" ID="16515">
+        <Name>
+          <ElementValue Type="Preferred">HMBS, IVS14DS, G-A, +1</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="nucleotide change">IVS14DS, G-A, +1</Attribute>
+          <XRef Type="Allelic variant" ID="609806.0036" DB="OMIM"/>
+        </AttributeSet>
+        <CytogeneticLocation>11q23.3</CytogeneticLocation>
+        <MeasureRelationship Type="asserted, but not computed">
+          <Name>
+            <ElementValue Type="Preferred">hydroxymethylbilane synthase</ElementValue>
+          </Name>
+          <Symbol>
+            <ElementValue Type="Preferred">HMBS</ElementValue>
+          </Symbol>
+          <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NC_000011.10" start="119084864" stop="119093549" display_start="119084864" display_stop="119093549" Strand="+"/>
+          <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="11" Accession="NW_009646203.1" start="106476" stop="106757" display_start="106476" display_stop="106757" Strand="+"/>
+          <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="11" Accession="NC_000011.9" start="118955586" stop="118964258" display_start="118955586" display_stop="118964258" variantLength="8673" Strand="+"/>
+          <XRef ID="3145" DB="Gene"/>
+          <XRef Type="MIM" ID="609806" DB="OMIM"/>
+          <XRef ID="HGNC:4982" DB="HGNC"/>
+        </MeasureRelationship>
+        <XRef Type="Allelic variant" ID="609806.0036" DB="OMIM"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="Preferred">HMBS, IVS14DS, G-A, +1</ElementValue>
+      </Name>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="387">
+      <Trait ID="4011" Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">Acute intermittent porphyria</ElementValue>
+          <XRef ID="Acute+Intermittent+Porphyria/187" DB="Genetic Alliance"/>
+          <XRef ID="5732" DB="Office of Rare Diseases"/>
+          <XRef ID="234422006" DB="SNOMED CT"/>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate">Hydroxymethylbilane Synthase Deficiency</ElementValue>
+        </Name>
+        <Symbol>
+          <ElementValue Type="Preferred">AIP</ElementValue>
+          <XRef Type="MIM" ID="176000" DB="OMIM"/>
+          <XRef ID="5732" DB="Office of Rare Diseases"/>
+        </Symbol>
+        <AttributeSet>
+          <Attribute Type="public definition">Acute intermittent porphyria (referred to as AIP in this GeneReview) results from half-normal activity of the enzyme hydroxymethylbilane synthase (HMBS). It is characterized clinically by life-threatening acute neurovisceral attacks of severe abdominal pain without peritoneal signs, often accompanied by nausea, vomiting, tachycardia, and hypertension. Attacks may be complicated by neurologic findings (mental changes, convulsions, and peripheral neuropathy that may progress to respiratory paralysis), and hyponatremia. Acute attacks, which may be provoked by certain drugs, alcoholic beverages, endocrine factors, calorie restriction, stress, and infections, usually resolve within two weeks. Most individuals with AIP have one or a few attacks; about 5% (mainly women) have recurrent attacks (defined as &gt;4 attacks/year) that may persist for years. Other long-term complications are chronic renal failure, hepatocellular carcinoma (HCC), and hypertension. Attacks, which are very rare before puberty, are more common in women than men. All individuals with a genetic change in the gene HMBS that predisposes to AIP are at risk of developing acute attacks; however, most never have symptoms and are said to have latent (or presymptomatic) AIP.</Attribute>
+          <XRef ID="NBK1193" DB="GeneReviews"/>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="keyword">Neoplasm</Attribute>
+        </AttributeSet>
+        <Citation Type="review" Abbrev="GeneReviews">
+          <ID Source="PubMed">20301372</ID>
+          <ID Source="BookShelf">NBK1193</ID>
+        </Citation>
+        <Citation Type="practice guideline" Abbrev="Orphanet, 2007">
+          <URL>https://www.orpha.net/data/patho/Pro/en/Emergency_AcuteHepaticPorphyria.pdf</URL>
+          <CitationText>Orphanet, Acute hepatic porphyria neuro-visceral crisis, 2007</CitationText>
+        </Citation>
+        <XRef ID="C0162565" DB="MedGen"/>
+        <XRef ID="79276" DB="Orphanet"/>
+        <XRef Type="MIM" ID="176000" DB="OMIM"/>
+      </Trait>
+    </TraitSet>
+  </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="21696">
+    <ClinVarSubmissionID localKey="609806.0036_PORPHYRIA, ACUTE INTERMITTENT" submitter="OMIM" submitterDate="2011-03-11" title="HMBS, IVS14DS, G-A, +1_PORPHYRIA, ACUTE INTERMITTENT"/>
+    <ClinVarAccession Acc="SCV000021696" Version="1" Type="SCV" OrgID="3" OrganizationCategory="resource" OrgType="primary" DateUpdated="2019-03-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="1993-03-01">
+      <ReviewStatus>no assertion criteria provided</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ExternalID DB="OMIM" ID="609806.0036" Type="Allelic variant"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">In a patient with CRM-negative AIP (176000), Gu et al. (1993) identified a 912G-A transition in the first nucleotide of the donor splice site of intron 14 of the HMBS gene, resulting in abnormal splicing and the skipping of exon 14.</Attribute>
+        <Citation>
+          <ID Source="PubMed">8096492</ID>
+        </Citation>
+        <XRef DB="OMIM" ID="176000" Type="MIM"/>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <Name>
+          <ElementValue Type="Preferred">HMBS, IVS14DS, G-A, +1</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="NonHGVS">IVS14DS, G-A, +1</Attribute>
+        </AttributeSet>
+        <MeasureRelationship Type="variant in gene">
+          <Symbol>
+            <ElementValue Type="Preferred">HMBS</ElementValue>
+          </Symbol>
+        </MeasureRelationship>
+        <XRef DB="OMIM" ID="609806.0036" Type="Allelic variant"/>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">PORPHYRIA, ACUTE INTERMITTENT</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ClinVarAssertion>
+</ClinVarSet>
+<ClinVarSet ID="38768784">
+  <RecordStatus>current</RecordStatus>
+  <Title>CHEK2, 1-BP DEL, 1100C AND Breast and colorectal cancer, susceptibility to</Title>
+  <ReferenceClinVarAssertion DateCreated="2012-08-13" DateLastUpdated="2019-03-30" ID="63438">
+    <ClinVarAccession Acc="RCV000005935" Version="4" Type="RCV" DateUpdated="2019-03-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2006-11-01">
+      <ReviewStatus>no assertion criteria provided</ReviewStatus>
+      <Description>risk factor</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="37879548">
+        <Attribute Type="Description">In a family with Li-Fraumeni syndrome-2 (609265), Bell et al. (1999) identified deletion of a cytosine at nucleotide 1100 of the CHK2 gene, resulting in premature termination in the kinase domain of the CHK2 protein. This heterozygous germline mutation was present in all 3 affected family members but was absent from unaffected family members and from 100 control alleles. Affected individuals had classic Li-Fraumeni syndrome with death from breast cancer, glioma, histiocytoma, and sarcoma. Family members had wildtype p53 (191170).</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">10617473</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="37879548">
+        <Attribute Type="Description">Vahteristo et al. (2001) identified the 1100delC mutation in the CHK2 gene in 2 families considered to have an atypical form of Li-Fraumeni syndrome because of the lack of sarcomas and childhood cancers in affected individuals.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">11479205</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="37879548">
+        <Attribute Type="Description">Meijers-Heijboer et al. (2002) found that an 1100delC variant of CHEK2, which results in truncation of the kinase activity, results in an approximately 2-fold increase of breast cancer (114480) risk in women and a 10-fold increase of risk in men.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">11967536</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="37879548">
+        <Attribute Type="Description">In Finland, Vahteristo et al. (2002) found that the frequency of 1100delC was 2.0% among an unselected population-based cohort of 1,035 patients with breast cancer, as compared with the 1.4% frequency found among 1,885 population control subjects (P = 0.182). However, a 3.1% frequency was found among those 358 patients with a positive family history, giving P = 0.021 compared with population controls. Furthermore, patients with bilateral breast cancer were 6-fold more likely to be 1100delC carriers than were patients with unilateral cancer (P = 0.007). Analysis of the 1100delC variant in an independent set of 507 patients with familial breast cancer with no BRCA1 (113705) or BRCA2 (600185) mutations confirmed a significantly elevated frequency of the 1-bp deletion. Tissue microarray analysis indicated that breast tumors from patients with 1100delC mutations showed reduced CHEK2 immunostaining. The results indicated that CHEK2 acts as a low-penetrance tumor-suppressor gene in breast cancer and that it makes a significant contribution to familial clustering of breast cancer, including families with only 2 affected relatives, which are more common than families that include larger numbers of affected women.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">12094328</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="37879548">
+        <Attribute Type="Description">Dong et al. (2003) found this frameshift mutation in exon 10 in 1 of 298 men with familial prostate cancer (176807), 1 of 400 men with sporadic prostate cancer, and 4 of 178 prostate cancer tumor samples. The mutation was not found in 423 unaffected men.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">12533788</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="37879548">
+        <Attribute Type="Description">Meijers-Heijboer et al. (2003) defined a subset of families with hereditary breast cancer characterized by the presence of colorectal cancer cases (HBCC). The 1100delC variant was present in 18% of 55 families with HBCC, as compared with 4% of 380 families with breast cancer and without colorectal cancer. The 1100delC mutation was not, however, the major predisposing factor for the HBCC phenotype, but appeared to act in synergy with at least 1 unknown susceptibility gene.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">12690581</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="37879548">
+        <Attribute Type="Description">To evaluate the breast cancer risk associated with the 1100delC variant, the CHEK2 Breast Cancer Case-Control Consortium (2004) genotyped 10,860 breast cancer cases and 9,065 controls from 10 case-control studies in 5 countries. The 1100delC variant was found in 201 cases (1.9%) and in 64 controls (0.7%), giving an estimated odds ratio of 2.34. There was some evidence of a higher prevalence of the 1100delC variant among cases with a first-degree relative affected with breast cancer (odds ratio 1.44) and of a trend for a higher breast cancer odds ratio at younger ages at diagnosis. These results confirmed that the 1100delC variant confers an increased risk of breast cancer and that this risk is apparent in women unselected for family history. The results were consistent with the hypothesis that the 1100delC variant multiples the risks associated with susceptibility alleles in other genes to increase the risk of breast cancer.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">15122511</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="37879548">
+        <Attribute Type="Description">Comparing data for 34 breast cancer patients with a germline 1100delC mutation with those for 102 breast cancer patients without this mutation, de Bock et al. (2004) concluded that carrying the 1100delC mutation is an adverse prognostic indicator. Mutation carriers more frequently had a female first- or second-degree relative with breast cancer and had a more unfavorable prognosis regarding the occurrence of contralateral breast cancer and distant metastasis-free survival.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">15466005</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="37879548">
+        <Attribute Type="Description">Johnson et al. (2005) found that relatives of bilateral breast cancer cases who were wildtype for CHEK2 had 3 times the population risk of female breast cancer, twice the risk of prostate cancer, and a large excess of male breast cancer. Relatives of those who were carriers of CHEK2*1100delC had an even higher risk of breast cancer and prostate cancer. The results were interpreted as indicating a multiplicative interaction between CHEK2*1100delC and other unknown susceptibility genes. They suggested that bilateral breast cancer cases and their families are likely to provide an efficient basis for identification of additional low-penetrance breast cancer genes.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">16257342</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="37879548">
+        <Attribute Type="Description">Cybulski et al. (2006) identified the 1100delC mutation in 14 (0.8%) of 1,864 Polish men with prostate cancer, in 3 (1.2%) of 249 Polish men with familial prostate cancer, and in 12 (0.2%) of 5,496 healthy controls. Data analysis yielded an odds ratio of 5.6 for familial prostate cancer in carriers of the 1-bp deletion. The authors determined that it is a founder mutation.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">17085682</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="5590" Acc="VCV000005590" Version="1">
+      <Measure Type="Deletion" ID="20629">
+        <Name>
+          <ElementValue Type="Preferred">CHEK2, 1-BP DEL, 1100C</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="nucleotide change">1-BP DEL, 1100C</Attribute>
+          <XRef Type="Allelic variant" ID="604373.0001" DB="OMIM"/>
+        </AttributeSet>
+        <CytogeneticLocation>22q12.1</CytogeneticLocation>
+        <MeasureRelationship Type="asserted, but not computed">
+          <Name>
+            <ElementValue Type="Preferred">checkpoint kinase 2</ElementValue>
+          </Name>
+          <Symbol>
+            <ElementValue Type="Preferred">CHEK2</ElementValue>
+          </Symbol>
+          <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="28687743" stop="28741866" display_start="28687743" display_stop="28741866" Strand="-"/>
+          <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="29083730" stop="29137821" display_start="29083730" display_stop="29137821" variantLength="54092" Strand="-"/>
+          <XRef ID="11200" DB="Gene"/>
+          <XRef Type="MIM" ID="604373" DB="OMIM"/>
+          <XRef ID="HGNC:16627" DB="HGNC"/>
+        </MeasureRelationship>
+        <XRef Type="Allelic variant" ID="604373.0001" DB="OMIM"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="Preferred">CHEK2, 1-BP DEL, 1100C</ElementValue>
+      </Name>
+    </MeasureSet>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="1569">
+      <Trait ID="10179" Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">Breast and colorectal cancer, susceptibility to</ElementValue>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate">HBCC, susceptibility to</ElementValue>
+        </Name>
+        <XRef ID="C1858433" DB="MedGen"/>
+      </Trait>
+    </TraitSet>
+  </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="26117">
+    <ClinVarSubmissionID localKey="604373.0001_BREAST AND COLORECTAL CANCER, SUSCEPTIBILITY TO" submitter="OMIM" submitterDate="2017-11-21" title="CHEK2, 1-BP DEL, 1100C_BREAST AND COLORECTAL CANCER, SUSCEPTIBILITY TO"/>
+    <ClinVarAccession Acc="SCV000026117" Version="3" Type="SCV" OrgID="3" OrganizationCategory="resource" OrgType="primary" DateUpdated="2019-03-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2006-11-01">
+      <ReviewStatus>no assertion criteria provided</ReviewStatus>
+      <Description>risk factor</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to included disease"/>
+    <ExternalID DB="OMIM" ID="604373.0001" Type="Allelic variant"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">In a family with Li-Fraumeni syndrome-2 (609265), Bell et al. (1999) identified deletion of a cytosine at nucleotide 1100 of the CHK2 gene, resulting in premature termination in the kinase domain of the CHK2 protein. This heterozygous germline mutation was present in all 3 affected family members but was absent from unaffected family members and from 100 control alleles. Affected individuals had classic Li-Fraumeni syndrome with death from breast cancer, glioma, histiocytoma, and sarcoma. Family members had wildtype p53 (191170).</Attribute>
+        <Citation>
+          <ID Source="PubMed">10617473</ID>
+        </Citation>
+        <XRef DB="OMIM" ID="609265" Type="MIM"/>
+        <XRef DB="OMIM" ID="191170" Type="MIM"/>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">Vahteristo et al. (2001) identified the 1100delC mutation in the CHK2 gene in 2 families considered to have an atypical form of Li-Fraumeni syndrome because of the lack of sarcomas and childhood cancers in affected individuals.</Attribute>
+        <Citation>
+          <ID Source="PubMed">11479205</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">Meijers-Heijboer et al. (2002) found that an 1100delC variant of CHEK2, which results in truncation of the kinase activity, results in an approximately 2-fold increase of breast cancer (114480) risk in women and a 10-fold increase of risk in men.</Attribute>
+        <Citation>
+          <ID Source="PubMed">11967536</ID>
+        </Citation>
+        <XRef DB="OMIM" ID="114480" Type="MIM"/>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">In Finland, Vahteristo et al. (2002) found that the frequency of 1100delC was 2.0% among an unselected population-based cohort of 1,035 patients with breast cancer, as compared with the 1.4% frequency found among 1,885 population control subjects (P = 0.182). However, a 3.1% frequency was found among those 358 patients with a positive family history, giving P = 0.021 compared with population controls. Furthermore, patients with bilateral breast cancer were 6-fold more likely to be 1100delC carriers than were patients with unilateral cancer (P = 0.007). Analysis of the 1100delC variant in an independent set of 507 patients with familial breast cancer with no BRCA1 (113705) or BRCA2 (600185) mutations confirmed a significantly elevated frequency of the 1-bp deletion. Tissue microarray analysis indicated that breast tumors from patients with 1100delC mutations showed reduced CHEK2 immunostaining. The results indicated that CHEK2 acts as a low-penetrance tumor-suppressor gene in breast cancer and that it makes a significant contribution to familial clustering of breast cancer, including families with only 2 affected relatives, which are more common than families that include larger numbers of affected women.</Attribute>
+        <Citation>
+          <ID Source="PubMed">12094328</ID>
+        </Citation>
+        <XRef DB="OMIM" ID="113705" Type="MIM"/>
+        <XRef DB="OMIM" ID="600185" Type="MIM"/>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">Dong et al. (2003) found this frameshift mutation in exon 10 in 1 of 298 men with familial prostate cancer (176807), 1 of 400 men with sporadic prostate cancer, and 4 of 178 prostate cancer tumor samples. The mutation was not found in 423 unaffected men.</Attribute>
+        <Citation>
+          <ID Source="PubMed">12533788</ID>
+        </Citation>
+        <XRef DB="OMIM" ID="176807" Type="MIM"/>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">Meijers-Heijboer et al. (2003) defined a subset of families with hereditary breast cancer characterized by the presence of colorectal cancer cases (HBCC). The 1100delC variant was present in 18% of 55 families with HBCC, as compared with 4% of 380 families with breast cancer and without colorectal cancer. The 1100delC mutation was not, however, the major predisposing factor for the HBCC phenotype, but appeared to act in synergy with at least 1 unknown susceptibility gene.</Attribute>
+        <Citation>
+          <ID Source="PubMed">12690581</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">To evaluate the breast cancer risk associated with the 1100delC variant, the CHEK2 Breast Cancer Case-Control Consortium (2004) genotyped 10,860 breast cancer cases and 9,065 controls from 10 case-control studies in 5 countries. The 1100delC variant was found in 201 cases (1.9%) and in 64 controls (0.7%), giving an estimated odds ratio of 2.34. There was some evidence of a higher prevalence of the 1100delC variant among cases with a first-degree relative affected with breast cancer (odds ratio 1.44) and of a trend for a higher breast cancer odds ratio at younger ages at diagnosis. These results confirmed that the 1100delC variant confers an increased risk of breast cancer and that this risk is apparent in women unselected for family history. The results were consistent with the hypothesis that the 1100delC variant multiples the risks associated with susceptibility alleles in other genes to increase the risk of breast cancer.</Attribute>
+        <Citation>
+          <ID Source="PubMed">15122511</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">Comparing data for 34 breast cancer patients with a germline 1100delC mutation with those for 102 breast cancer patients without this mutation, de Bock et al. (2004) concluded that carrying the 1100delC mutation is an adverse prognostic indicator. Mutation carriers more frequently had a female first- or second-degree relative with breast cancer and had a more unfavorable prognosis regarding the occurrence of contralateral breast cancer and distant metastasis-free survival.</Attribute>
+        <Citation>
+          <CitationText>de Bock, G. H., Schutte, M., Krol-Warmerdam, E. M. M., Seynaeve, C., Blom, J., Brekelmans, C. T. M., Meijers-Heijboer, H., van Asperen, C. J., Cornelisse, C. J., Devilee, P., Tollenaar, R. A. E. M., Klijn, J. G. M. Tumour characteristics and prognosis of breast cancer patients carrying the germline CHEK2*1100delC variant. J. Med. Genet. 41: 731-735, 2004.</CitationText>
+        </Citation>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">Johnson et al. (2005) found that relatives of bilateral breast cancer cases who were wildtype for CHEK2 had 3 times the population risk of female breast cancer, twice the risk of prostate cancer, and a large excess of male breast cancer. Relatives of those who were carriers of CHEK2*1100delC had an even higher risk of breast cancer and prostate cancer. The results were interpreted as indicating a multiplicative interaction between CHEK2*1100delC and other unknown susceptibility genes. They suggested that bilateral breast cancer cases and their families are likely to provide an efficient basis for identification of additional low-penetrance breast cancer genes.</Attribute>
+        <Citation>
+          <ID Source="PubMed">16257342</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">Cybulski et al. (2006) identified the 1100delC mutation in 14 (0.8%) of 1,864 Polish men with prostate cancer, in 3 (1.2%) of 249 Polish men with familial prostate cancer, and in 12 (0.2%) of 5,496 healthy controls. Data analysis yielded an odds ratio of 5.6 for familial prostate cancer in carriers of the 1-bp deletion. The authors determined that it is a founder mutation.</Attribute>
+        <Citation>
+          <ID Source="PubMed">17085682</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <Name>
+          <ElementValue Type="Preferred">CHEK2, 1-BP DEL, 1100C</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="NonHGVS">1-BP DEL, 1100C</Attribute>
+        </AttributeSet>
+        <MeasureRelationship Type="variant in gene">
+          <Symbol>
+            <ElementValue Type="Preferred">CHEK2</ElementValue>
+          </Symbol>
+        </MeasureRelationship>
+        <XRef DB="OMIM" ID="604373.0001" Type="Allelic variant"/>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="included">BREAST AND COLORECTAL CANCER, SUSCEPTIBILITY TO</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ClinVarAssertion>
+</ClinVarSet>
